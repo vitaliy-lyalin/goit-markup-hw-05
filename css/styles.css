@@ -171,9 +171,22 @@ img {
   padding-bottom: 24px;
 }
 .nav-site .item {
+  position: relative;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+.link.current::after {
+  display: flex;
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 4px;
+  bottom: -1px;
+  left: 0;
+  border-radius: 2px;
+  background-color: #2196f3;
+  
 }
 .nav-contacts .item {
   display: block;
