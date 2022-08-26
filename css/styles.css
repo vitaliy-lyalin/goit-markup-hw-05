@@ -44,8 +44,11 @@ body {
 .list {
   padding: 0;
   margin: 0;
-
   list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 p {
@@ -125,7 +128,6 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  text-decoration: none;
   color: var(--accent-color);
 }
 .header-studio {
@@ -209,7 +211,6 @@ img {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 
   transition-property: color;
   transition-duration: 250ms;
@@ -224,7 +225,6 @@ img {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 
   transition-property: color;
   transition-duration: 250ms;
@@ -508,7 +508,7 @@ img {
   font-weight: 400;
 
   color: var(--footer-text-color);
-  text-decoration: none;
+ 
 
   transition-property: color;
   transition-duration: 250ms;
@@ -621,6 +621,4 @@ img {
   font-size: 16px;
   line-height: 1.88;
 }
-.work-list .link {
-  text-decoration: none;
-}
+
