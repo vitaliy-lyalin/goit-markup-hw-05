@@ -555,6 +555,7 @@ img {
   background-color: var(--accent-color);
 }
 
+/* Модальне вікно на бекдропі */
 .backdrop {
   position: fixed;
   width: 100%;
@@ -582,6 +583,23 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
+.buttom-close {
+  position: absolute;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  top: 8px;
+  right: 8px;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--primary-background-color);
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  
+  cursor: pointer;
+}
+
 /* Стилі для сторінки portfolio.html */
 .works {
   padding-top: 94px;
